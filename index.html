@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.blue{
+			color: blue;
+		}
+		.yellow{
+			color: yellow;
+		}
+		body{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 100vh;
+		}
+		p{
+			padding: 7px 15px;
+			display: block
+		}
+		.select{
+			color: grey;
+			text-decoration: underline;
+			border: 1px solid grey;
+
+		}
+		button{
+			display: block;
+			margin-bottom: 20px;
+		}
+		.chose-color{
+			display: flex;
+		}
+		.red{
+			color: red !important;
+			border: 1px solid red;
+		}
+		.blue{
+			color: blue !important;
+			border: 1px solid blue;
+		}
+	</style>
+</head>
+<body>
+	<!-- Для комфортного перегляду першого завдання закоміть всі кнопки які відносяться до 2  -->
+	<!-- 2  -->
+	<div class="btns">
+		<button class="createList">Push for create new element</button>
+		<button class="nextElement">Next element</button>
+		<button class="previosElement">Previos element</button>
+		<button class="firstElement">First Element</button>
+		<button class="lastElement">Last Element</button>
+		<div class="chose-color">
+			<button class="redColor">Red Color</button>
+			<button class="blueColor">Blue Color</button>
+			<button class="randomColor">Random Color</button>
+			<button class="reserAllStyles">Reset All Styles</button>
+		</div>
+		<button class="delete">Delete Element</button>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
